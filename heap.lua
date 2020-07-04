@@ -10,16 +10,16 @@
 	
 	
 	Primitivas:
-	*crear:      crea un nuevo hash y lo devuelve, si se le da un arreglo lo arma basado en ese
+	*crear:      Crea un nuevo heap y lo devuelve, si se le da un arreglo lo arma basado en ese, si no, no.
 	
-	*cantidad:   devuelve cuantos elementos hay en el heap (0 si esta vacio)
-	*esta_vacio: esta vacio el heap? (true si lo esta, false si no)
+	*cantidad:   Devuelve cuantos elementos hay en el heap (0 si esta vacio).
+	*esta_vacio: Esta vacio el heap? (true si lo esta, false si no).
 	
-	*insertar:   inserta un elemento en la posicion correcta del heap
-	*remover:    remueve primer elemento del heap
+	*insertar:   Inserta un elemento en la posicion correcta del heap.
+	*remover:    Remueve primer elemento del heap. (Si el heap esta vacio devuelve nil.)
 	
-	*imprimir:   escribe en pantalla como se ve el arreglo interno del heap
-	*maximo:     devuelve el elemento mas grande
+	*imprimir:   Escribe en pantalla como se ve el arreglo interno del heap.
+	*maximo:     Devuelve el elemento mas grande del heap.
 	
 	
 	
