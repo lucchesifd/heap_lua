@@ -10,16 +10,16 @@
 	
 	
 	Primitivas:
-	*crear:      crea un nuevo heap y lo devuelve, si se le da una tabla lo arma basado en esa.
+	*nuevo:     crea un nuevo heap y lo devuelve, si se le da una tabla lo arma basado en esa.
 	
-	*cantidad:   devuelve cuantos elementos hay en el heap (0 si esta vacio.)
-	*esta_vacio: esta vacio el heap? (true si lo esta, false si no.)
+	*cantidad:  devuelve cuantos elementos hay en el heap (0 si esta vacio.)
+	*vacio:     esta vacio el heap? (true si lo esta, false si no.)
 	
-	*insertar:   inserta un elemento en la posicion correcta del heap.
-	*remover:    remueve el primer elemento del heap y lo devuelve (nil si el heap esta vacio.)
+	*insertar:  inserta un elemento en la posicion correcta del heap.
+	*remover:   remueve el primer elemento del heap y lo devuelve (nil si el heap esta vacio.)
 	
-	*imprimir:   escribe en pantalla como esta armado el arreglo interno del heap.
-	*maximo:     devuelve el elemento mas grande del heap (nil si el heap esta vacio.)
+	*imprimir:  escribe en pantalla como esta armado el arreglo interno del heap.
+	*maximo:    devuelve el elemento mas grande del heap (nil si el heap esta vacio.)
 	
 	
 	
